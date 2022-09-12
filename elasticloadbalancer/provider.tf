@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket                  = "sl-infracode-bucket-state"
-    key                     = "terraform-project"
+    key                     = "elb-project"
     region                  = "us-east-1"
     shared_credentials_file = "~/.aws/credentials"
   }

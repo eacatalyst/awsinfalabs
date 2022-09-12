@@ -33,5 +33,5 @@ variable "instance_type" {
 variable "ssh_private_key" {
   description = "pem file of Keypair we used to login to EC2 instances"
   type        = string
-  default     = "./Keypair-01.pem"
+  default     = "~/Downloads/kp-infra-code.pem"
 }
